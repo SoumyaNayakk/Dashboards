@@ -45,5 +45,5 @@ We can conclude that for a system with limited disc space and a decent processor
 curl -X POST http://localhost:11434/api/chat -H "Content-Type: application/json" -d "{\"model\": \"moondream\", \"messages\": [{\"role\": \"user\", \"content\": \"why is the sky blue?\"}], \"stream\": false}"
 curl -X POST http://localhost:11434/api/chat -H "Content-Type: application/json" -d "{\"model\": \"llama3\", \"messages\": [{\"role\": \"user\", \"content\": \"why is the sky blue?\"}]}"
 
-# Link to the video explanation: https://drive.google.com/file/d/1CRFNlPzU2nm5RrtelwLlCorDPUVlRuS2/view?usp=sharing
+# Link to the video explanation: https://drive.google.com/file/d/1lKURE8OsVru6vOoCembDeNI3FXtyIwLN/view?usp=sharing
 
