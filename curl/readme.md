@@ -42,7 +42,11 @@ stream : false means the response is obtained all together not a stream at a tim
 
 We can conclude that for a system with limited disc space and a decent processor, moondream is efficient in terms of speed compared to llama3
 # 8)These are the commands to chat with the models
-curl -X POST http://localhost:11434/api/chat -H "Content-Type: application/json" -d "{\"model\": \"moondream\", \"messages\": [{\"role\": \"user\", \"content\": \"why is the sky blue?\"}], \"stream\": false}"
+curl -X POST http://localhost:11434/api/chat -H "Content-Type: application/json" -d "{\"model\": \"moondream\", \"messages\": [{\"role\": \"user\", \"content\": \"why is the sky blue?\"}], \"stream\": false}"   
+
+
+
+
 curl -X POST http://localhost:11434/api/chat -H "Content-Type: application/json" -d "{\"model\": \"llama3\", \"messages\": [{\"role\": \"user\", \"content\": \"why is the sky blue?\"}]}"
 
 # Link to the video explanation
