@@ -26,13 +26,13 @@ To install and run the app boilerplate, follow these steps:
 1. Clone this repository to your local machine:
 
 ```shell
-git clone https://github.com/SoumyaNayakk/Dashboards/rag_application.git
+git clone https://github.com/SoumyaNayakk/Dashboards/quadrag.git
 ```
 
 2. Change into the project directory:
 
 ```shell
-cd rag_application
+cd quadrag
 ```
 
 3. Install the required Python packages using pip:
@@ -71,6 +71,9 @@ QDRANT_COLLECTION_NAME=
 # Click on the provided link to access the app
 streamlit run app.py
 The app will open in your default web browser with the user interface.
+
+# Video explanation available here
+https://drive.google.com/file/d/1nhRRALB8GxN9r6uPNgor4-Sx_POZx_KL/view?usp=sharing
 
 ## License
 
