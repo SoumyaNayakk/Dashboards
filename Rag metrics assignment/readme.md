@@ -25,30 +25,16 @@ To install and run the app boilerplate, follow these steps:
 
 1. Clone this repository to your local machine:
 
-```shell
-git clone https://github.com/SoumyaNayakk/Dashboards/raga_application.git
-```
 
 2. Change into the project directory:
-
-```shell
-cd raga_application
-```
 
 3. Install the required Python packages using pip:
 
 
 # Configuration
 
-To configure the app boilerplate to work with your Qdrant Managed Cloud Service account, you need to add your credentials to the `.env` file. Follow these steps:
-
-1. Copy the `.env.example` file and rename it to `.env`:
-
-```shell
-cp .env.example .env
-```
-
-2. Open the `.env` file in a text editor and provide your Qdrant Managed Cloud Service and OpenAI   credentials:
+To configure the app boilerplate to work with your Qdrant Managed Cloud Service account, you need to add your credentials to the `.env` file. Follow this step:
+Open the `.env` file in a text editor and provide your Qdrant Managed Cloud Service and OpenAI   credentials:
 
 ```plaintext
 OPENAI_API_KEY=
@@ -60,7 +46,7 @@ QDRANT_COLLECTION_NAME=
 
 # Usage
 1. Run Intro_to_Qdrant to create and initialize vector store.
-2. While running the 'raga updated', upload run.py
+2. While running the 'raga_updated', upload run.py
 3. Run streamlit on google collab using these commands
 !wget -q -O - ipv4.icanhazip.com
 # This will return an IP address, e.g., 35.147.138.250
