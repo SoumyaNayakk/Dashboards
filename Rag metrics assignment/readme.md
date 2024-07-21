@@ -1,4 +1,4 @@
-#Calculating and Reporting Metrics of the RAG Pipeline
+# Calculating and Reporting Metrics of the RAG Pipeline
 
 
 I executed this project using a RAG (Retrieval-Augmented Generation) pipeline to enhance the chatbot's ability to provide accurate and relevant responses. To evaluate the performance metrics of the RAG-based LLM, I utilized RAGAS, which offers a comprehensive set of tailored metrics. This approach allowed me to systematically measure and improve the chatbot's relevance, accuracy, and robustness in generated answers.
