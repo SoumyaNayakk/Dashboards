@@ -73,7 +73,7 @@ streamlit run app.py
 The app will open in your default web browser with the user interface.
 
 # Video explanation available here
-https://drive.google.com/file/d/1qcYHFIa4Dr5IZk-jIzhpx1fOukI-TAdL/view?usp=sharing
+[https://drive.google.com/file/d/1qcYHFIa4Dr5IZk-jIzhpx1fOukI-TAdL/view?usp=sharing](https://drive.google.com/file/d/1o1sZz-17v6KnSwKjjSAcOppBq3SvgABD/view)
 
 ## License
 
